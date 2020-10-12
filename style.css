@@ -1,1 +1,82 @@
 style.css
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #000000;
+    color: white;
+    font-size: 30px;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    display: inline;
+}       
+
+li a {
+    display: inline;
+    padding: 100px;
+    background-color: #dddddd;
+    color: #208ff0
+  }
+
+body {
+    background-color: #208ff0;
+
+}
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #000000;
+    color:gray;
+    font-size: 30px;
+  }
+h1 {
+    color: #208ff0;
+}    
+#container {
+    color: rgb(96, 121, 124);
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    /*this will change the top margin to be 20px
+    and the padding on all sides to be 20px */
+    margin-top: 10px;
+    padding: 10px;
+    border-width: 10px;
+    border-color: blue;
+    font-family: 'Crimson', sans-serif;
+}
+.container {
+    color: black;
+    
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dddddd;
+    color: #208ff0;
+    text-align: center;
+  }
+
+.uppercase {
+    text-transform: uppercase;
+}
+.left-col {
+    float: left;
+}
+.right-col {
+    float: right;    
+    width:100px;
+    height:50px;    
+}
+.clearFix {
+    clear: both;
+}
